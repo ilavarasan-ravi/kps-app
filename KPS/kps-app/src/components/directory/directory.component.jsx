@@ -9,11 +9,17 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                    title: 'Grinders',
+                    imageUrl: require('../../assets/images/menu-item-images/grinders.jpg'),
                     id: 1,
-                    linkUrl: 'shop/hats'
+                    linkUrl: 'shop/Grinders'
                 },
+                // {
+                //     title: 'hats',
+                //     imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                //     id: 1,
+                //     linkUrl: 'shop/hats'
+                // },
                 {
                     title: 'jackets',
                     imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',

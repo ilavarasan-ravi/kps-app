@@ -1,6 +1,67 @@
 const SHOP_DATA = [
     {
         id: 1,
+        title: 'grinders',
+        routeName: 'grinders',
+        items: [
+            {
+                id: 1,
+                name: 'Metal body Grinder',
+                imageUrl: require('../../assets/images/shop-img/grinders/grinder1.jpg'),
+                price: 25
+            },
+            {
+                id: 2,
+                name: 'Blue Grinder',
+                imageUrl: require('../../assets/images/shop-img/grinders/grinder2.jpg'),
+                price: 18
+            },
+            {
+                id: 3,
+                name: 'Table top Grinder',
+                imageUrl: require('../../assets/images/shop-img/grinders/grinder3.jpg'),
+                price: 35
+            },
+            {
+                id: 4,
+                name: 'Compact Grinder',
+                imageUrl: require('../../assets/images/shop-img/grinders/grinder4.jpg'),
+                price: 25
+            },
+            {
+                id: 5,
+                name: 'Green Beanie',
+                imageUrl: require('../../assets/images/shop-img/grinders/grinder5.jpg'),
+                price: 18
+            },
+            {
+                id: 6,
+                name: 'Palm Tree Cap',
+                imageUrl: require('../../assets/images/shop-img/hats/palm-tree-cap.png'),
+                price: 14
+            },
+            {
+                id: 7,
+                name: 'Red Beanie',
+                imageUrl: require('../../assets/images/shop-img/hats/red-beanie.png'),
+                price: 18
+            },
+            {
+                id: 8,
+                name: 'Wolf Cap',
+                imageUrl: require('../../assets/images/shop-img/hats/wolf-cap.png'),
+                price: 14
+            },
+            {
+                id: 9,
+                name: 'Blue Snapback',
+                imageUrl: require('../../assets/images/shop-img/hats/blue-snapback.png'),
+                price: 16
+            }
+        ]
+    },
+    {
+        id: 2,
         title: 'Hats',
         routeName: 'hats',
         items: [
@@ -61,7 +122,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: 'Sneakers',
         routeName: 'sneakers',
         items: [
@@ -116,7 +177,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: 'Jackets',
         routeName: 'jackets',
         items: [
@@ -153,7 +214,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: 'Womens',
         routeName: 'womens',
         items: [
@@ -202,7 +263,7 @@ const SHOP_DATA = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: 'Mens',
         routeName: 'mens',
         items: [
